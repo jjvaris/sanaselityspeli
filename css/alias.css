@@ -1,0 +1,498 @@
+html, body {
+    background-color:#1b6d85;
+    height: 100%;
+    width: 100%;
+}
+
+p {
+    margin: 0 0 0px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+@media screen and (min-width: 550px) {
+    .modal-content {
+        background-color: #fefefe;
+        margin: auto; /* 15% from the top and centered */
+        top: 10%;
+        width: 400px;
+        /*border: 1px solid #888;*/
+        color: #080808;
+        height: 80%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .modal-content {
+        background-color: #fefefe;
+        margin: auto; /* 15% from the top and centered */
+        top: 10%;
+        width: 80%;
+        /*border: 1px solid #888;*/
+        color: #080808;
+        overflow: auto;
+        height: 80%;
+    }
+}
+
+.modal-guessed-words {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    overflow: auto;
+    height: 100%;
+}
+
+.guessed-word-text {
+    color:#67b168;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.skipped-word-text {
+    color:brown;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+/* The Close Button */
+.close-modal-button {
+    position: absolute;
+    display: block;
+    right: 5%;
+    opacity: .5;
+    color: #101010;
+    font-size: 28px;
+    padding-top: 15px;
+}
+
+.guessed-words-button-div {
+    /*display: none;
+    position: absolute;
+    padding: 20px;
+    right: 15px;
+    height: 10%;*/
+
+    float: right;
+    /*margin-bottom: 25%;*/
+    margin-right: 4%;
+    background:none;
+    border:none;
+    box-shadow:none;
+
+}
+
+.guessed-words-button {
+
+    /*display: none;
+    position: absolute;
+    padding: 20px;
+    right: 15px;
+    height: 10%;*/
+
+    display: none;
+    background:none;
+    border:none;
+    box-shadow:none;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    color: #fff;
+    outline: none;
+}
+
+.guessed-words-button:active {
+
+    /*display: none;
+    position: absolute;
+    padding: 20px;
+    right: 15px;
+    height: 10%;*/
+
+    outline: none;
+    display: none;
+    background:none;
+    border:none;
+    box-shadow:none;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    color: #fff;
+}
+
+.settings-button-div {
+    /*display: none;
+    position: absolute;
+    padding: 20px;
+    right: 15px;
+    height: 10%;*/
+    outline: none;
+    float: right;
+    margin-bottom: 20%;
+    margin-left: 2%;
+    background:none;
+    border:none;
+    box-shadow:none;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    color: #fff;
+}
+
+.settings-button {
+    display: none;
+}
+
+.settings {
+    display: block;
+    position: absolute;
+    padding: 10px;
+    left: 5%;
+}
+
+.alias {
+    font-size: 60px;
+    line-height: 75px;
+    font-weight: 300;
+    color: #fff;
+    margin: 10px 0px;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    font-family: 'Open Sans';
+    -webkit-font-smoothing: antialiased;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+@media screen and (max-width: 400px) {
+    .topic {
+        font-size: 30px;
+    }
+
+    .button-font-size {
+        font-size: 19px;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 550px) and (orientation: portrait) {
+    .topic {
+        font-size: 40px;
+    }
+
+    .button-font-size {
+        font-size: 23px;
+    }
+}
+
+@media screen and (min-width: 550px) and (max-width: 700px) and (orientation: portrait) {
+    .topic {
+        font-size: 70px;
+    }
+
+    .button-font-size {
+        font-size: 27px;
+    }
+}
+
+@media screen and (min-width: 700px) and (orientation: portrait) {
+    .topic {
+        font-size: 80px;
+    }
+
+    .button-font-size {
+        font-size: 37px;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 550px) and (orientation: landscape) {
+    .topic {
+        font-size: 30px;
+    }
+
+    .button-font-size {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 550px) and (max-width: 700px) and (orientation: landscape) {
+    .topic {
+        font-size: 40px;
+    }
+
+    .button-font-size {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 700px) and (orientation: landscape) {
+    .topic {
+        font-size: 60px;
+    }
+
+    .button-font-size {
+        font-size: 23px;
+    }
+}
+
+.Absolute-Center {
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+@media screen and (min-width: 550px) and (orientation: landscape) {
+    .page-wrap {
+        width: 500px;
+        position: fixed;
+        top: 15px;
+        right: 15px;
+        left: 15px;
+        bottom: 15px;
+        border-radius: 10px;
+        padding: 20px;
+        text-align: center;
+        background-color: #32c8de;
+    }
+}
+
+
+.page-wrap {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    left: 15px;
+    bottom: 15px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    background-color: #32c8de;
+}
+
+
+.wrap {
+    font-size: 19px;
+    /*border: 10px solid #337ab7;*/
+    /*border:20px solid rgba(0, 0, 0, 0.2);*/
+    font-family: 'Open Sans', sans-serif;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+}
+
+.first {
+    background-color: #32c8de;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second {
+    height: 15%;
+    background-color: #32c8de;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third {
+    height: 15%;
+    background-color: #32c8de;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth {
+    height: 15%;
+    background-color: #32c8de;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fifth {
+    height: 15%;
+    background-color: #32c8de;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sixth {
+    height: 15%;
+    background-color: #32c8de;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.minus {
+    height: 80%;
+    width: 20%;
+    border-radius: 25px;
+    margin-left: 13%;
+    margin-right: auto;
+    vertical-align: middle;
+    display: table-cell;
+    box-shadow: 0 0 10px -1px rgba(0,0,0,0.6);
+    font-weight: bold;
+    background-color: rgba(255, 0, 0, 0.6) !important;
+    border:3px solid rgba(0, 0, 0, 0.1);
+}
+
+.plus {
+    height: 80%;
+    width: 20%;
+    border-radius: 25px;
+    margin-right: 13%;
+    margin-left: auto;
+    vertical-align: middle;
+    display: table-cell;
+    box-shadow: 0 0 10px -1px rgba(0,0,0,0.6);
+    font-weight: bold;
+    background-color: rgba(0, 100, 0, 0.2) !important;
+    border:3px solid rgba(0, 0, 0, 0.1);
+}
+
+.minus:active {
+    color:white;
+    box-shadow:inset 0px 0px 15px rgba(0,0,0,0.1);
+}
+
+.plus:active {
+    color:white;
+    box-shadow:inset 0px 0px 15px rgba(0,0,0,0.1);
+}
+
+.divbutton-disabled {
+    pointer-events: none;
+    border-radius: 25px;
+    width: 80%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    display: table-cell;
+    box-shadow: 0 0 10px -1px rgba(0,0,0,0.6);
+    background-color: rgba(189, 189, 189, 1);
+    border:3px solid rgba(0, 0, 0, 0.1);
+}
+
+.start-button {
+    background-color: rgba(0, 100, 0, 0.2) !important;
+    pointer-events: all !important;
+    border-radius: 25px;
+    width: 80%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    display: table-cell;
+    box-shadow: 0 0 10px -1px rgba(0,0,0,0.6);
+    border:3px solid rgba(0, 0, 0, 0.1);
+}
+
+.start-button:active {
+    color:white;
+    box-shadow:inset 0px 0px 15px rgba(0,0,0,0.1);
+}
+
+.skip-button {
+    background-color: rgba(255, 0, 0, 0.6) !important;
+    pointer-events: all !important;
+    border-radius: 25px;
+    width: 80%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    display: table-cell;
+    box-shadow: 0 0 10px -1px rgba(0,0,0,0.6);
+    border:3px solid rgba(0, 0, 0, 0.1);
+}
+
+.skip-button:active {
+    color:white;
+    box-shadow:inset 0px 0px 15px rgba(0,0,0,0.1);
+}
+
+.reset-button {
+    background-color: rgba(255, 140, 0, 0.6) !important;
+    pointer-events: all !important;
+    border-radius: 25px;
+    width: 80%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    display: table-cell;
+    box-shadow: 0 0 10px -1px rgba(0,0,0,0.6);
+    border:3px solid rgba(0, 0, 0, 0.1);
+}
+
+.reset-button:active {
+    color:white;
+    box-shadow:inset 0px 0px 15px rgba(0,0,0,0.1);
+}
+
+.center-div {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.center-text {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.notselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+
+.points-button-disabled {
+    width: 20%;
+    height: 80%;
+    border-radius: 25px;
+    color:#fff;
+    background:rgba(0,0,0,0.2);
+    border:3px solid rgba(0, 0, 0, 0.1);
+    box-shadow:inset 0px 0px 15px rgba(0,0,0,0.1);
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    display: table-cell;
+    pointer-events: none;
+}
+
+.points-button {
+    background-color: rgba(255, 165, 0, 0.8) !important;
+    pointer-events: all !important;
+    border-radius: 25px;
+    width: 20%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    display: table-cell;
+    box-shadow: 0 0 10px -1px rgba(0,0,0,0.6);
+    border:3px solid rgba(0, 0, 0, 0.1);
+}
+
+.countdown .date span{
+    display:block;
+    font-size:13px;
+    color:rgba(255,255,255,0.6);
+    margin-top:9px;
+}
