@@ -112,7 +112,7 @@ function pyyhiArvatut () {
 }
 
 function laskuri(start) {
-    var aika = 1;
+    var aika = 60;
     var tiimalasiElement = $("#tiimalasi");
     var topicElement = $("#topic");
     var tiimalasi = setInterval(function () {
