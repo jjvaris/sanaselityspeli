@@ -185,3 +185,10 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
+
+document.addEventListener("deviceready", onDeviceReady, false);
+function onDeviceReady() {
+    document.addEventListener("backbutton", function (e) {
+        e.preventDefault();
+    }, false );
+}
