@@ -187,7 +187,7 @@ window.onclick = function(event) {
 }
 
 // for disabling backbutton exit on Android
-document.addEventListener("deviceready", onDeviceReady, false);
+/*document.addEventListener("deviceready", onDeviceReady, false);
 
 function onDeviceReady(){
     document.addEventListener("backbutton", onBackKeyDown, false);
@@ -195,4 +195,4 @@ function onDeviceReady(){
 
 function onBackKeyDown(){
     return false;
-}
+}*/
