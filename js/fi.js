@@ -1,5 +1,3 @@
-var nahdyt = [];
-
 var sanat = [
     "saada",
     "tulla",

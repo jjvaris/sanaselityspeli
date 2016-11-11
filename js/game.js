@@ -9,6 +9,7 @@ var pisteet = 0;
 var eka = true;
 var timeout = false;
 var nextOrSkipPressed = false;
+var nahdyt = [];
 
 function arvoSana(index) {
     var sana;
@@ -19,8 +20,11 @@ function arvoSana(index) {
     if(nahdyt[sana] == undefined) {
         $("#sana").text(sanat[sana].toUpperCase());
         nahdyt[sana] = true;
-    } else
-        arvoSana(sana + 1);
+    } else {
+        if(nahdyt.length == sanat.length)
+            nahdyt = [];
+        arvoSana(++sana < sanat.length ? sana : 0);
+    }
 }
 
 function seuraava() {
