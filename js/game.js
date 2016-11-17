@@ -18,11 +18,11 @@ $(document).ready(function() {
         const lang = $(this).attr("id")
         console.log(lang);
         view.words = words[lang];
-        view.localized = localization[lang] == undefined ? localization.en : localization[lang];
+        view.localized = localization[lang];
         view.language = lang;
         localStorage.setItem("language", lang);
         view.reload();
-        view.reset();
+        resetGame();
     });
 })
 
