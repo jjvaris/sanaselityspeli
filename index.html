@@ -12,63 +12,80 @@
 </head>
 <body>
 
-<div class="container page-wrap wrap">
 
-    <!-- Modal -->
-    <div id="myModal" class="modal">
+<div class="container page-wrap wrap">
+    <!--<div class="settings-button-div">
+        <button id="settings-button" type="button" class="settings-button button-font-size">
+            <span class="glyphicon glyphicon-cog"></span>
+        </button>
+    </div>-->
+    <!-- Guessed words Modal -->
+    <div id="guessed-words" class="modal">
         <!-- Modal content -->
         <div class="modal-content">
-            <span class="close-modal-button close glyphicon glyphicon-remove"></span>
-
+            <span id="close-guessed-words" class="close-modal-button close glyphicon glyphicon-remove"></span>
             <div id="guessed-words-modal" class="modal-guessed-words"></div>
         </div>
     </div>
 
-    <div class="row first">
-        <!--<div class="col-xs-1 settings-button-div">
-            <button type="button" class="settings-button button-font-size" aria-label="Left Align">
-                <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
-            </button>
-        </div>-->
-        <div class="col-xs-12 text-center">
+    <!-- Settings Modal -->
+    <div id="settings-modal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content-settings">
+            <span id="close-settings" class="close-modal-button close glyphicon glyphicon-remove"></span>
+            <h4 id="language-setting" class="language-setting">Language</h4>
+            <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+                    <span id="language-dropdown-button"></span>
+                    <span class="caret"></span>
+                </button>
+                <ul id="languages-dropdown" class="dropdown-menu scrollable-menu">
+                </ul>
+            </div>
+            <!--<div id="guessed-words-modal" class="modal-guessed-words"></div>-->
+        </div>
+    </div>
 
+    <div class="row header">
+        <div class="col-xs-12 settings-button-div">
+            <button id="settings-button" type="button" class="settings-button button-font-size">
+                <span class="glyphicon glyphicon-cog"></span>
+            </button>
+        </div>
+    </div>
+    <div class="row first">
+        <div class="col-xs-12 text-center">
             <div class="center-div">
                 <div class="center-text notselectable">
-                    <h1 id="topic" class="topic alias">Sanaselityspeli</h1>
-                    <h1 id="tiimalasi" class="alias"></h1>
+                    <span id="topic" class="topic alias"></span>
+                    <span id="tiimalasi" class="alias"></span>
                 </div>
             </div>
-
         </div>
-        <!--<div class="col-xs-1 guessed-words-button-div">
-            <button id="guessed-words-button" type="button" class="guessed-words-button button-font-size" aria-label="Left Align">
-                <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
-            </button>
-        </div>-->
     </div>
     <div class="row second button-font-size">
         <div class="col-xs-12 text-center">
             <div class="center-div">
                 <div class="center-text notselectable">
-                    <span id="sana">Paina aloita</span>
+                    <span id="word"></span>
                 </div>
             </div>
         </div>
     </div>
     <div class="row third otherrows">
-        <div id="start" class="col-xs-12 start-button divbutton-disabled button-font-size"   onclick="seuraava()">
+        <div id="start" class="col-xs-12 start-button divbutton-disabled button-font-size" onclick="seuraava()">
             <div class="center-div">
                 <div class="center-text notselectable">
-                    <span id="startbutton">Aloita</span>
+                    <span id="startbutton"></span>
                 </div>
             </div>
         </div>
     </div>
     <div class="row fourth otherrows">
-        <div id="skipbutton" class="col-xs-12 divbutton-disabled button-font-size" onclick="ohita()" disabled>
+        <div id="skip" class="col-xs-12 divbutton-disabled button-font-size" onclick="ohita()" disabled>
             <div class="center-div">
                 <div class="center-text notselectable">
-                    <span id="skip">Ohita</span>
+                    <span id="skipbutton"></span>
                 </div>
             </div>
         </div>
@@ -78,7 +95,7 @@
             <div class="center-div">
                 <div class="center-text notselectable">
                     <div>
-                        <span id="nollaa">Nollaa</span>
+                        <span id="resetbutton"></span>
                     </div>
                 </div>
             </div>
@@ -98,7 +115,7 @@
             <div class="center-div">
                 <div class="center-text notselectable">
                     <div>
-                        <p class="" id="pisteet">0</p>
+                        <p class="" id="points">0</p>
                     </div>
                 </div>
             </div>
@@ -115,11 +132,12 @@
     </div>
     <!--<video src="timeout.mp3" id="timeout" style="display: none;"></video>-->
 </div>
-
-<script src="js/game.js"></script>
-<script src="js/fi.js"></script>
 <script src="js/jquery-3.1.0.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="phonegap.js"></script>
+<script src="js/words.js"></script>
+<script src="js/localization.js"></script>
+<script src="js/view.js"></script>
+<script src="js/game.js"></script>
 </body>
 </html>

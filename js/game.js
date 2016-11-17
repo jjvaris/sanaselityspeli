@@ -10,20 +10,36 @@ var eka = true;
 var timeout = false;
 var nextOrSkipPressed = false;
 var nahdyt = [];
+var view = new View();
+
+$(document).ready(function() {
+    view.initialize();
+    $(".dropdown-menu li a").click(function(){
+        const lang = $(this).attr("id")
+        console.log(lang);
+        view.words = words[lang];
+        view.localized = localization[lang] == undefined ? localization.en : localization[lang];
+        view.language = lang;
+        localStorage.setItem("language", lang);
+        view.reload();
+        view.reset();
+    });
+})
+
 
 function arvoSana(index) {
     var sana;
     if(index)
         sana = index;
     else
-        sana = Math.floor(Math.random() * sanat.length);
+        sana = Math.floor(Math.random() * view.words.length);
     if(nahdyt[sana] == undefined) {
-        $("#sana").text(sanat[sana].toUpperCase());
+        $("#word").text(view.words[sana].toUpperCase());
         nahdyt[sana] = true;
     } else {
-        if(nahdyt.length == sanat.length)
+        if(nahdyt.length == view.words.length)
             nahdyt = [];
-        arvoSana(++sana < sanat.length ? sana : 0);
+        arvoSana(++sana < view.words.length ? sana : 0);
     }
 }
 
@@ -36,7 +52,8 @@ function seuraava() {
     else {
         $("#tiimalasi").show();
         $("#topic").hide();
-        $("#startbutton").text("Seuraava");
+        $("#startbutton").text(view.localized.next);
+        $("#resetbutton").text(view.localized.reset);
         gameReset = false;
         nextOrSkipPressed = false;
         pelikaynnissa = true;
@@ -45,7 +62,7 @@ function seuraava() {
         eka = false;
         console.log('Adding divbutton to reset button')
         $("#reset").addClass('reset-button');
-        $("#skipbutton").addClass('skip-button');
+        $("#skip").addClass('skip-button');
         var hr = document.createElement("hr");
         hr.className = "to-be-removed";
         $("#guessed-words-modal").prepend(hr);
@@ -53,7 +70,7 @@ function seuraava() {
         $("#points-button").removeClass('points-button');
     }
 
-    $("#pisteet").text(pisteet);
+    $("#points").text(pisteet);
 
     arvoSana();
 }
@@ -61,14 +78,14 @@ function seuraava() {
 function ohita() {
     pisteet -= 1;
     lisaaOhitus();
-    $("#pisteet").text(pisteet);
+    $("#points").text(pisteet);
     nextOrSkipPressed = true;
     arvoSana();
 }
 
 function lisaaArvaus() {
     var tekstiElementti = document.createElement("p");
-    var teksti = document.createTextNode($("#sana").text());
+    var teksti = document.createTextNode($("#word").text());
     tekstiElementti.appendChild(teksti);
     tekstiElementti.className = "guessed-word-text";
     $("#guessed-words-modal").prepend(tekstiElementti);
@@ -76,7 +93,7 @@ function lisaaArvaus() {
 
 function lisaaOhitus() {
     var tekstiElementti = document.createElement("p");
-    var teksti = document.createTextNode($("#sana").text());
+    var teksti = document.createTextNode($("#word").text());
     tekstiElementti.appendChild(teksti);
     tekstiElementti.className = "skipped-word-text";
     $("#guessed-words-modal").prepend(tekstiElementti);
@@ -85,7 +102,7 @@ function lisaaOhitus() {
 function nollaa() {
     if(timeout) { // Continue button pressed
         seuraava();
-        $("#nollaa").text("Nollaa");
+        $("#nollaa").text(view.localized.reset);
         $("#start").addClass('start-button');
     } else {
         resetGame();
@@ -97,22 +114,7 @@ function resetGame() {
     gameReset = true;
     eka = true;
     pisteet = 0;
-    $("#sana").text("Paina Aloita");
-    $("#pisteet").text(pisteet);
-    pyyhiArvatut();
-    $("#startbutton").text("Aloita");
-    $("#reset").removeClass('reset-button');
-    $("#skipbutton").removeClass('skip-button');
-    $("#tiimalasi").hide();
-    $("#topic").text("Sanaselityspeli");
-    $("#topic").show();
-    $("#points-button").removeClass('points-button');
-}
-
-function pyyhiArvatut () {
-    $(".guessed-word-text").remove();
-    $(".skipped-word-text").remove();
-    $(".to-be-removed").remove();
+    view.reset();
 }
 
 function laskuri(start) {
@@ -136,11 +138,11 @@ function laskuri(start) {
             if(!gameReset) {
                 tiimalasiElement.hide();
                 topicElement.show();
-                topicElement.text("Aika loppui!");
-                $('#nollaa').text("Jatka");
+                topicElement.text(view.localized.timeOut);
+                $("#resetbutton").text(view.localized.continue);
                 timeout = true;
                 $("#start").removeClass('start-button');
-                $("#skipbutton").removeClass('skip-button');
+                $("#skip").removeClass('skip-button');
                 $("#guessed-words-button").show(500);
                 $("#points-button").addClass('points-button');
             }
@@ -155,23 +157,23 @@ function laskuri(start) {
 
 function plus() {
     pisteet += 1;
-    $("#pisteet").text(pisteet);
+    $("#points").text(pisteet);
 }
 
 function miinus() {
     pisteet -= 1;
-    $("#pisteet").text(pisteet);
+    $("#points").text(pisteet);
 }
 
 
 // Get the modal
-var modal = document.getElementById('myModal');
+var modal = document.getElementById('guessed-words');
 
 // Get the button that opens the modal
 var btn = document.getElementById("points-button");
 
 // Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+var span = document.getElementById("close-guessed-words");
 
 // When the user clicks on the button, open the modal
 btn.onclick = function() {
@@ -183,10 +185,24 @@ span.onclick = function() {
     modal.style.display = "none";
 }
 
-// When the user clicks anywhere outside of the modal, close it
+var settings = document.getElementById('settings-modal');
+var settingsBtn = document.getElementById("settings-button");
+var settingsCloseBtn = document.getElementById("close-settings");
+
+settingsBtn.onclick = function() {
+    settings.style.display = "block";
+}
+
+settingsCloseBtn.onclick = function() {
+    settings.style.display = "none";
+}
+
 window.onclick = function(event) {
     if (event.target == modal) {
         modal.style.display = "none";
+    }
+    if (event.target == settings) {
+        settings.style.display = "none";
     }
 }
 
