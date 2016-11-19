@@ -90,7 +90,7 @@ function lisaaArvaus() {
 
 function addGuessedOrSkippedWord(guessed) {
     var $row = $("<div/>", {
-        "class": "row notselectable " + (guessed ? "guessed-word-div" : "skipped-word-div")
+        "class": "row notselectable to-be-removed " + (guessed ? "guessed-word-div" : "skipped-word-div")
     }).prependTo("#guessed-words-modal");
 
     $row.data("guessed", guessed);
