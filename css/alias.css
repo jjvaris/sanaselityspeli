@@ -12,8 +12,8 @@ p {
 .modal {
     width: 100%; /* Full width */
     height: 100%; /* Full height */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    /*background-color: rgb(0,0,0); /* Fallback color */
+    /*background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
     text-align: center;
 }
 
@@ -26,7 +26,7 @@ p {
         /*border: 1px solid #888;*/
         color: #080808;
         overflow: auto;
-        height: 80%;
+        height: 72%;
     }
 }
 
@@ -35,11 +35,11 @@ p {
         background-color: #fefefe;
         margin: auto; /* 15% from the top and centered */
         top: 10%;
-        width: 60%;
+        width: 80%;
         /*border: 1px solid #888;*/
         color: #080808;
         overflow: auto;
-        height: 80%;
+        height: 72%;
     }
 }
 
@@ -75,20 +75,46 @@ p {
     padding-bottom: 20px;
     overflow: auto;
     height: 100%;
+    font-size: 20px;
 }
 
 .guessed-word-text {
+    padding-right: 21%;
+    pointer-events: all;
+}
+
+.skipped-word-text {
+    padding-right: 21%;
+    pointer-events: all;
+}
+
+.skipped-word-div {
+    pointer-events: none;
+    color: brown;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.guessed-word-div {
+    pointer-events: none;
     color:#67b168;
     text-shadow: 0px 0px 10px rgba(0,0,0,0.1);
 }
 
-.skipped-word-text {
-    color:brown;
-    text-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+.skipped {
+    text-align: left;
+    left: 8%;
+    top: 2px;
+    pointer-events: all;
+}
+
+.clickable {
+    pointer-events: all !important;
+    z-index: 100;
 }
 
 /* The Close Button */
 .close-modal-button {
+    pointer-events: all !important;
     position: absolute;
     display: block;
     right: 5%;
@@ -96,6 +122,7 @@ p {
     color: #101010;
     font-size: 28px;
     padding-top: 15px;
+    z-index: 100;
 }
 
 .language-setting {
@@ -577,7 +604,7 @@ p {
 }
 
 .dropdown-toggle {
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .dropdown {

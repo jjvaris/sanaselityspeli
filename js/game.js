@@ -11,6 +11,7 @@ var timeout = false;
 var nextOrSkipPressed = false;
 var nahdyt = [];
 var view = new View();
+const startTime = 2;
 
 $(document).ready(function() {
     view.initialize();
@@ -84,20 +85,59 @@ function ohita() {
 }
 
 function lisaaArvaus() {
-    var tekstiElementti = document.createElement("p");
-    var teksti = document.createTextNode($("#word").text());
-    tekstiElementti.appendChild(teksti);
-    tekstiElementti.className = "guessed-word-text";
-    $("#guessed-words-modal").prepend(tekstiElementti);
+    addGuessedOrSkippedWord(true);
+}
+
+function addGuessedOrSkippedWord(guessed) {
+    var $row = $("<div/>", {
+        "class": "row notselectable " + (guessed ? "guessed-word-div" : "skipped-word-div")
+    }).prependTo("#guessed-words-modal");
+
+    $row.data("guessed", guessed);
+
+    var $column1 = $("<div/>", {
+        "class": "col-xs-2 skipped"
+    }).appendTo($row);
+
+    var $column2 = $("<div/>", {
+        "class": "col-xs-10 guessed-word-text"
+    }).appendTo($row);
+
+    var $span = $("<span/>", {
+        "class":'glyphicon clickable '+ (guessed ? "glyphicon-ok" : "glyphicon-remove"),
+        click: function() {
+            toggleGuessedWord($row, $span, this);
+        }
+    }).appendTo($column1)
+
+    $("<span/>", {
+        text: $("#word").text(),
+        click: function() {
+            toggleGuessedWord($row, $span, this);
+        }
+    }).appendTo($column2);
 }
 
 function lisaaOhitus() {
-    var tekstiElementti = document.createElement("p");
-    var teksti = document.createTextNode($("#word").text());
-    tekstiElementti.appendChild(teksti);
-    tekstiElementti.className = "skipped-word-text";
-    $("#guessed-words-modal").prepend(tekstiElementti);
+    addGuessedOrSkippedWord(false);
 }
+
+function toggleGuessedWord(row, span, $this) {
+    console.log($(row).data("guessed"))
+    if ($(row).data("guessed")) {
+        pisteet -= 2;
+        $(row).data("guessed", false);
+    } else {
+        pisteet += 2;
+        $(row).data("guessed", true);
+    }
+    $(row).toggleClass("guessed-word-div");
+    $(row).toggleClass("skipped-word-div");
+    $(span).toggleClass("glyphicon-remove");
+    $(span).toggleClass("glyphicon-ok");
+    $("#points").text(pisteet);
+}
+
 
 function nollaa() {
     if(timeout) { // Continue button pressed
@@ -118,7 +158,7 @@ function resetGame() {
 }
 
 function laskuri(start) {
-    var aika = 60;
+    var aika = startTime;
     var tiimalasiElement = $("#tiimalasi");
     var topicElement = $("#topic");
     var tiimalasi = setInterval(function () {
