@@ -11,7 +11,7 @@ var timeout = false;
 var nextOrSkipPressed = false;
 var nahdyt = [];
 var view = new View();
-const startTime = 2;
+const startTime = 60;
 
 $(document).ready(function() {
     view.initialize();
