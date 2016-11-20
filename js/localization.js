@@ -1,6 +1,6 @@
 var localization = {
     "af":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -12,7 +12,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "sq":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -24,7 +24,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "am":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -36,7 +36,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "ar":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -48,7 +48,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "hy":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -60,7 +60,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "az":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -72,7 +72,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "ba":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -84,7 +84,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "eu":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -96,7 +96,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "be":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -108,7 +108,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "bn":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -120,7 +120,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "bs":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -132,7 +132,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "bg":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -144,7 +144,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "ca":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -156,7 +156,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "ceb":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -168,7 +168,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "zh":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -180,7 +180,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "hr":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -192,7 +192,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "cs":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -204,7 +204,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "da":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -216,7 +216,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "nl":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -228,7 +228,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "en":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -240,7 +240,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "eo":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -252,7 +252,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "et":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -276,7 +276,7 @@ var localization = {
         "languageDropdown": "Kieli"
     },
     "fr":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -288,7 +288,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "gl":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -300,7 +300,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "ka":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -312,7 +312,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "de":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -324,7 +324,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "el":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -336,7 +336,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "gu":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -348,7 +348,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "ht":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -360,7 +360,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "he":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -372,7 +372,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "mrj":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -384,7 +384,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "hi":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -396,7 +396,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "hu":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -408,7 +408,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "is":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -420,7 +420,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "id":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -432,7 +432,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "ga":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -444,19 +444,19 @@ var localization = {
         "languageDropdown":"Language"
     },
     "it":{
-        "title":"Explain this!",
-        "timeOut":"Time out!",
-        "help":"Press start",
-        "next":"Next",
-        "skip":"Skip",
+        "title":"Explain it!",
+        "timeOut":"Tempo scaduto!",
+        "help":"Premi start",
+        "next":"Prossimo",
+        "skip":"Passo",
         "start":"Start",
-        "continue":"Continue",
-        "reset":"Reset",
+        "continue":"Avanti",
+        "reset":"Azzera",
         "language":"Italian",
-        "languageDropdown":"Language"
+        "languageDropdown":"Lingue"
     },
     "ja":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -468,7 +468,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "jv":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -480,7 +480,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "kn":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -492,7 +492,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "kk":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -504,7 +504,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "ko":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -516,7 +516,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "ky":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -528,7 +528,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "la":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -540,7 +540,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "lav":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -552,7 +552,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "lt":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -564,7 +564,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "mk":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -576,7 +576,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "mg":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -588,7 +588,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "ms":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -600,7 +600,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "ml":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -612,7 +612,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "mi":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -624,7 +624,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "mr":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -636,7 +636,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "mhr":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -648,7 +648,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "mn":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -660,7 +660,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "ne":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -672,7 +672,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "no":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -684,7 +684,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "pap":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -696,7 +696,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "fa":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -708,7 +708,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "pl":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -720,7 +720,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "pt":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -732,7 +732,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "pa":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -744,7 +744,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "ro":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -756,7 +756,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "ru":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -768,7 +768,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "gd":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -780,7 +780,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "sr":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -792,7 +792,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "si":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -804,7 +804,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "sk":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -816,7 +816,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "sl":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -828,7 +828,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "es":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -840,7 +840,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "su":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -852,7 +852,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "sw":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -864,7 +864,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "sv":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -876,7 +876,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "tl":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -888,7 +888,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "tg":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -900,7 +900,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "ta":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -912,7 +912,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "tt":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -924,7 +924,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "te":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -936,7 +936,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "th":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -948,7 +948,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "tr":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -960,7 +960,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "udm":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -972,7 +972,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "uk":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -984,7 +984,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "ur":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -996,7 +996,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "uz":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -1008,7 +1008,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "vi":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -1020,7 +1020,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "cy":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -1032,7 +1032,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "xh":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
@@ -1044,7 +1044,7 @@ var localization = {
         "languageDropdown":"Language"
     },
     "yi":{
-        "title":"Explain this!",
+        "title":"Explain it!",
         "timeOut":"Time out!",
         "help":"Press start",
         "next":"Next",
