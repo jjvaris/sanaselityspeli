@@ -11,7 +11,7 @@ var timeout = false;
 var nextOrSkipPressed = false;
 var nahdyt = [];
 var view = new View();
-const startTime = 1;
+const startTime = 60;
 
 $(document).ready(function() {
     view.initialize();
@@ -145,7 +145,7 @@ function nollaa() {
         $("#nollaa").text(view.localized.reset);
         $("#start").addClass('start-button');
     } else {
-        view.confirm("Reset game?", resetGame);
+        view.confirm(view.localized.resetConfirmation, resetGame);
     }
 }
 
@@ -255,5 +255,5 @@ function onDeviceReady(){
 }
 
 function onBackKeyDown(){
-    view.confirm("Confirm exit?", navigator.app.exitApp);
+    view.confirm(view.localized.exitConfirmation, navigator.app.exitApp);
 }

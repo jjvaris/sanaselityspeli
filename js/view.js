@@ -60,12 +60,17 @@ View.prototype.confirm = function(confirm, callback) {
     $confirm.css("display", "block");
     $("#confirm-topic").text(confirm);
 
-    $("#yes").off("click").on("click", function(){
+    var $yes = $("#yes");
+    var $cancel = $("#no");
+    $yes.text(this.localized.yes);
+    $cancel.text(this.localized.cancel);
+
+    $yes.off("click").on("click", function(){
         $confirm.css("display", "none");
         callback();
     });
 
-    $("#no").click(function(){
+    $cancel.click(function(){
         $confirm.css("display", "none");
     });
 

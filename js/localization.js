@@ -9,7 +9,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Afrikaans",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "yes":"Yes",
+        "cancel":"Cancel"
     },
     "sq":{
         "title":"Explain it!",
@@ -21,7 +25,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Albanian",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "am":{
         "title":"Explain it!",
@@ -33,7 +41,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Amharic",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "ar":{
         "title":"Explain it!",
@@ -45,7 +57,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Arabic",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "hy":{
         "title":"Explain it!",
@@ -57,7 +73,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Armenian",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "az":{
         "title":"Explain it!",
@@ -69,7 +89,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Azerbaijan",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "ba":{
         "title":"Explain it!",
@@ -81,7 +105,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Bashkir",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "eu":{
         "title":"Explain it!",
@@ -93,7 +121,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Basque",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "be":{
         "title":"Explain it!",
@@ -105,7 +137,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Belarusian",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "bn":{
         "title":"Explain it!",
@@ -117,7 +153,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Bengali",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "bs":{
         "title":"Explain it!",
@@ -129,7 +169,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Bosnian",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "bg":{
         "title":"Explain it!",
@@ -141,7 +185,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Bulgarian",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "ca":{
         "title":"Explain it!",
@@ -153,7 +201,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Catalan",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "ceb":{
         "title":"Explain it!",
@@ -165,7 +217,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Cebuano",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "zh":{
         "title":"Explain it!",
@@ -177,7 +233,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Chinese",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "hr":{
         "title":"Explain it!",
@@ -189,7 +249,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Croatian",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "cs":{
         "title":"Explain it!",
@@ -201,7 +265,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Czech",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "da":{
         "title":"Explain it!",
@@ -213,7 +281,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Danish",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "nl":{
         "title":"Explain it!",
@@ -225,7 +297,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Dutch",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "en":{
         "title":"Explain it!",
@@ -237,7 +313,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"English",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "eo":{
         "title":"Explain it!",
@@ -249,7 +329,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Esperanto",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "et":{
         "title":"Explain it!",
@@ -261,19 +345,27 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Estonian",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
-    "fi": {
-        "title": "Sanaselityspeli",
-        "timeOut": "Aika loppui!",
-        "help": "Paina aloita",
-        "next": "Seuraava",
-        "skip": "Ohita",
-        "start": "Aloita",
-        "continue": "Jatka",
-        "reset": "Nollaa",
-        "language": "Finnish",
-        "languageDropdown": "Kieli"
+    "fi":{
+        "title":"Sanaselityspeli",
+        "timeOut":"Aika loppui!",
+        "help":"Paina aloita",
+        "next":"Seuraava",
+        "skip":"Ohita",
+        "start":"Aloita",
+        "continue":"Jatka",
+        "reset":"Nollaa",
+        "language":"Finnish",
+        "languageDropdown":"Kieli",
+        "exitConfirmation":"Lopeta peli?",
+        "resetConfirmation":"Nollaa peli?",
+        "cancel":"Peruuta",
+        "yes":"Kyllä"
     },
     "fr":{
         "title":"Explain it!",
@@ -285,7 +377,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"French",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "gl":{
         "title":"Explain it!",
@@ -297,7 +393,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Galician",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "ka":{
         "title":"Explain it!",
@@ -309,7 +409,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Georgian",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "de":{
         "title":"Explain it!",
@@ -321,7 +425,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"German",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "el":{
         "title":"Explain it!",
@@ -333,7 +441,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Greek",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "gu":{
         "title":"Explain it!",
@@ -345,7 +457,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Gujarati",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "ht":{
         "title":"Explain it!",
@@ -357,7 +473,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Haitian (Creole)",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "he":{
         "title":"Explain it!",
@@ -369,7 +489,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Hebrew",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "mrj":{
         "title":"Explain it!",
@@ -381,7 +505,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Hill Mari",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "hi":{
         "title":"Explain it!",
@@ -393,7 +521,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Hindi",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "hu":{
         "title":"Explain it!",
@@ -405,7 +537,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Hungarian",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "is":{
         "title":"Explain it!",
@@ -417,7 +553,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Icelandic",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "id":{
         "title":"Explain it!",
@@ -429,7 +569,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Indonesian",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "ga":{
         "title":"Explain it!",
@@ -441,7 +585,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Irish",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "it":{
         "title":"Explain it!",
@@ -453,7 +601,11 @@ var localization = {
         "continue":"Avanti",
         "reset":"Azzera",
         "language":"Italian",
-        "languageDropdown":"Lingue"
+        "languageDropdown":"Lingue",
+        "exitConfirmation":"Uscita?",
+        "resetConfirmation":"Azzera gioco?",
+        "cancel":"Cancellare",
+        "yes":"Si"
     },
     "ja":{
         "title":"Explain it!",
@@ -465,7 +617,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Japanese",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "jv":{
         "title":"Explain it!",
@@ -477,7 +633,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Javanese",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "kn":{
         "title":"Explain it!",
@@ -489,7 +649,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Kannada",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "kk":{
         "title":"Explain it!",
@@ -501,7 +665,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Kazakh",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "ko":{
         "title":"Explain it!",
@@ -513,7 +681,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Korean",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "ky":{
         "title":"Explain it!",
@@ -525,7 +697,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Kyrgyz",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "la":{
         "title":"Explain it!",
@@ -537,7 +713,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Latin",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "lav":{
         "title":"Explain it!",
@@ -549,7 +729,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Latvian",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "lt":{
         "title":"Explain it!",
@@ -561,7 +745,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Lithuanian",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "mk":{
         "title":"Explain it!",
@@ -573,7 +761,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Macedonian",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "mg":{
         "title":"Explain it!",
@@ -585,7 +777,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Malagasy",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "ms":{
         "title":"Explain it!",
@@ -597,7 +793,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Malay",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "ml":{
         "title":"Explain it!",
@@ -609,7 +809,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Malayalam",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "mi":{
         "title":"Explain it!",
@@ -621,7 +825,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Maori",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "mr":{
         "title":"Explain it!",
@@ -633,7 +841,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Marathi",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "mhr":{
         "title":"Explain it!",
@@ -645,7 +857,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Mari",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "mn":{
         "title":"Explain it!",
@@ -657,7 +873,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Mongolian",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "ne":{
         "title":"Explain it!",
@@ -669,7 +889,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Nepali",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "no":{
         "title":"Explain it!",
@@ -681,7 +905,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Norwegian",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "pap":{
         "title":"Explain it!",
@@ -693,7 +921,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Papiamento",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "fa":{
         "title":"Explain it!",
@@ -705,7 +937,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Persian",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "pl":{
         "title":"Explain it!",
@@ -717,7 +953,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Polish",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "pt":{
         "title":"Explain it!",
@@ -729,7 +969,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Portuguese",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "pa":{
         "title":"Explain it!",
@@ -741,7 +985,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Punjabi",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "ro":{
         "title":"Explain it!",
@@ -753,7 +1001,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Romanian",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "ru":{
         "title":"Explain it!",
@@ -765,7 +1017,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Russian",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "gd":{
         "title":"Explain it!",
@@ -777,7 +1033,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Scottish Gaelic",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "sr":{
         "title":"Explain it!",
@@ -789,7 +1049,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Serbian",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "si":{
         "title":"Explain it!",
@@ -801,7 +1065,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Sinhala",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "sk":{
         "title":"Explain it!",
@@ -813,7 +1081,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Slovakian",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "sl":{
         "title":"Explain it!",
@@ -825,7 +1097,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Slovenian",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "es":{
         "title":"Explain it!",
@@ -837,7 +1113,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Spanish",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "su":{
         "title":"Explain it!",
@@ -849,7 +1129,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Sundanese",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "sw":{
         "title":"Explain it!",
@@ -861,7 +1145,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Swahili",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "sv":{
         "title":"Explain it!",
@@ -873,7 +1161,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Swedish",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "tl":{
         "title":"Explain it!",
@@ -885,7 +1177,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Tagalog",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "tg":{
         "title":"Explain it!",
@@ -897,7 +1193,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Tajik",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "ta":{
         "title":"Explain it!",
@@ -909,7 +1209,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Tamil",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "tt":{
         "title":"Explain it!",
@@ -921,7 +1225,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Tatar",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "te":{
         "title":"Explain it!",
@@ -933,7 +1241,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Telugu",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "th":{
         "title":"Explain it!",
@@ -945,7 +1257,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Thai",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "tr":{
         "title":"Explain it!",
@@ -957,7 +1273,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Turkish",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "udm":{
         "title":"Explain it!",
@@ -969,7 +1289,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Udmurt",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "uk":{
         "title":"Explain it!",
@@ -981,7 +1305,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Ukrainian",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "ur":{
         "title":"Explain it!",
@@ -993,7 +1321,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Urdu",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "uz":{
         "title":"Explain it!",
@@ -1005,7 +1337,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Uzbek",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "vi":{
         "title":"Explain it!",
@@ -1017,7 +1353,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Vietnamese",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "cy":{
         "title":"Explain it!",
@@ -1029,7 +1369,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Welsh",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "xh":{
         "title":"Explain it!",
@@ -1041,7 +1385,11 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Xhosa",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     },
     "yi":{
         "title":"Explain it!",
@@ -1053,6 +1401,10 @@ var localization = {
         "continue":"Continue",
         "reset":"Reset",
         "language":"Yiddish",
-        "languageDropdown":"Language"
+        "languageDropdown":"Language",
+        "exitConfirmation":"Are you sure you want to exit?",
+        "resetConfirmation":"Reset game?",
+        "cancel":"Cancel",
+        "yes":"Yes"
     }
 };
