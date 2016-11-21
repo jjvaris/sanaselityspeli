@@ -55,3 +55,25 @@ View.prototype.reset = function() {
     }
 }
 
+View.prototype.confirm = function(confirm, callback) {
+    var $confirm = $("#confirm");
+    $confirm.css("display", "block");
+    $("#confirm-topic").text(confirm);
+
+    $("#yes").click(function(){
+        $confirm.css("display", "none");
+        callback();
+    });
+
+    $("#no").click(function(){
+        $confirm.css("display", "none");
+    });
+
+    $confirm.click(function() {
+        $confirm.css("display", "none");
+    });
+
+    $("#close-confirm-modal").click(function() {
+        $confirm.css("display", "none");
+    })
+}

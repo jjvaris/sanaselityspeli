@@ -11,7 +11,7 @@ var timeout = false;
 var nextOrSkipPressed = false;
 var nahdyt = [];
 var view = new View();
-const startTime = 60;
+const startTime = 1;
 
 $(document).ready(function() {
     view.initialize();
@@ -145,9 +145,10 @@ function nollaa() {
         $("#nollaa").text(view.localized.reset);
         $("#start").addClass('start-button');
     } else {
-        resetGame();
+        view.confirm("Reset game?", resetGame);
     }
 }
+
 
 function resetGame() {
     nextOrSkipPressed = false;
@@ -246,7 +247,7 @@ window.onclick = function(event) {
     }
 }
 
-// for disabling backbutton exit on Android
+// android backbutton logic
 document.addEventListener("deviceready", onDeviceReady, false);
 
 function onDeviceReady(){
@@ -254,5 +255,5 @@ function onDeviceReady(){
 }
 
 function onBackKeyDown(){
-    return false;
+    view.confirm("Confirm exit?", navigator.app.exitApp);
 }
