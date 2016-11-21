@@ -60,7 +60,7 @@ View.prototype.confirm = function(confirm, callback) {
     $confirm.css("display", "block");
     $("#confirm-topic").text(confirm);
 
-    $("#yes").click(function(){
+    $("#yes").off("click").on("click", function(){
         $confirm.css("display", "none");
         callback();
     });
